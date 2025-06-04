@@ -11,13 +11,10 @@
    ```bash
    git clone https://github.com/ваш_репозиторий/TestTaskRosTechJava.git
 Перейдите в директорию проекта:
-COPY
 cd TestTaskRosTechJava
 Соберите проект с помощью Maven:
-COPY
 mvn clean install
 Запуск
 Для запуска проекта используйте следующую команду:
 
-COPY
 mvn exec:java -Dexec.mainClass="Main"
